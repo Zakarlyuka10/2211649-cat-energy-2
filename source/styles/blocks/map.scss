@@ -1,1 +1,13 @@
-//map
+@media (min-width: $tablet-width) {
+  .map__wrapper {
+    width: 770px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__wrapper {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
