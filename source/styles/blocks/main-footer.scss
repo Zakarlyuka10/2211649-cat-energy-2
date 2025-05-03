@@ -1,11 +1,13 @@
-.main-footer {
+.main-footer__wrapper {
+  width: 320px;
+  margin: 0 auto;
   background-color: #f2f2f2;
 }
 
 @media (min-width: $tablet-width) {
   .main-footer__wrapper {
     display: flex;
-    width: 704px;
+    width: 768px;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
@@ -15,5 +17,6 @@
 @media (min-width: $desktop-width) {
   .main-footer__wrapper {
     width: 1220px;
+    margin: 0 auto;
   }
 }

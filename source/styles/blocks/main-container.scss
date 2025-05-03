@@ -1,1 +1,18 @@
-// SCSS-файл
+.main-container___wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .main-container___wrapper {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-container___wrapper {
+    width: 1220px;
+    margin: 0 auto;
+  }
+}
