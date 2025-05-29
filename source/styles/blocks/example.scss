@@ -117,11 +117,6 @@
     width: 325px;
   }
 
-  .example__font {
-    width: 100%;
-    background-color: $f-highlighted;
-  }
-
   .example__description {
     width: 708px;
     padding-bottom: 55px;
@@ -204,6 +199,16 @@
     margin: 0 auto;
     background-color: $bg-secondary;
     position: relative;
+  }
+
+  .example__fonts {
+    width: 100%;
+    background-color: $f-highlighted;
+  }
+
+  .example__font {
+    width: 1440px;
+    margin: 0 auto;
   }
 
   .example__title {
